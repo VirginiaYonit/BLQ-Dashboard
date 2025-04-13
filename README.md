@@ -10,7 +10,7 @@ This interactive dashboard tracks 25 years of air traffic at Bologna Airport, in
 
 ## Live Demo
 
-Coming soon (hosted on Render)
+[Hosted on Render](https://blq-app.onrender.com)
 
 ## Technologies
 - Python (Dash, Plotly, Pandas)
