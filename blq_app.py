@@ -44,7 +44,7 @@ for label, column in kpi_mapping.items():
 annotations = {
     2000: "Bologna: European Capital of Culture",
     2013: "High-speed rail station opens",
-    2015: "the company is listed on the Milan Stock Exchange",
+    2015: "The company is listed on the Milan Stock Exchange",
     2020: "Marconi Express & COVID lockdown",
     2023: "WHO ends pandemic state"
 }
