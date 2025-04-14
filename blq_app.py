@@ -21,7 +21,7 @@ kpi_mapping = {
     "Passenger Traffic": "Bologna_Passengers",
     "Total Movements": "Bologna_Movements",
     "Cargo Tons": "Bologna_Cargo_Tons",
-    "Avg Pre-departure Delay per Flight": "AVG_DELAY_PER_FLIGHT",
+    "Avg Pre-Delay per Flight": "AVG_DELAY_PER_FLIGHT",
     "CO₂ Emissions - Italy": "Annual_CO2_Emissions"
 }
 
@@ -30,7 +30,7 @@ kpi_units = {
     "Passenger Traffic": "passengers",
     "Total Movements": "movements",
     "Cargo Tons": "tons",
-    "Avg Pre-departure Delay per Flight": "min/flight",
+    "Avg Pre-Delay per Flight": "min/flight",
     "CO₂ Emissions - Italy": "tons CO₂"
 }
 
@@ -44,7 +44,7 @@ for label, column in kpi_mapping.items():
 annotations = {
     2000: "Bologna: European Capital of Culture",
     2013: "High-speed rail station opens",
-    2015: "The company is listed on the Milan Stock Exchange",
+    2015: "the company is listed on the Milan Stock Exchange",
     2020: "Marconi Express & COVID lockdown",
     2023: "WHO ends pandemic state"
 }
@@ -56,6 +56,7 @@ app.layout = html.Div([
         html.H4("Tracking air traffic, delays, and emissions (2000–2024)", 
                 style={"textAlign": "center", "marginTop": "0", "color": "gray"})
     ], style={"padding": "20px", "backgroundColor": "#f9f9f9"}),
+
 
     html.Div([
         html.Label("Select year range:", style={"fontWeight": "bold", "marginBottom": "10px"}),
@@ -83,7 +84,7 @@ app.layout = html.Div([
 
         dcc.Graph(id='custom-kpi-chart'),
         html.Ul(id='annotation-list', style={"paddingTop": "20px", "fontSize": "0.9em", "color": "#555"}),
-
+        html.P("Note: Pre-departured Delay data from Eurocontrol is only available from 2016 onward.", style={"fontSize": "0.8em", "color": "gray", "paddingTop": "5px"}),
         html.Label("Select volume type:", style={"fontWeight": "bold", "marginBottom": "10px", "marginTop": "20px"}),
         dcc.RadioItems(
             id='volume-toggle',
@@ -220,3 +221,4 @@ server = app.server
 
 if __name__ == '__main__':
     app.run_server(debug=True, use_reloader=False)
+
