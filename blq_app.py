@@ -21,7 +21,7 @@ kpi_mapping = {
     "Passenger Traffic": "Bologna_Passengers",
     "Total Movements": "Bologna_Movements",
     "Cargo Tons": "Bologna_Cargo_Tons",
-    "Avg Delay per Flight": "AVG_DELAY_PER_FLIGHT",
+    "Avg Pre-departure Delay per Flight": "AVG_DELAY_PER_FLIGHT",
     "CO₂ Emissions - Italy": "Annual_CO2_Emissions"
 }
 
@@ -30,7 +30,7 @@ kpi_units = {
     "Passenger Traffic": "passengers",
     "Total Movements": "movements",
     "Cargo Tons": "tons",
-    "Avg Delay per Flight": "min/flight",
+    "Avg Pre-departure Delay per Flight": "min/flight",
     "CO₂ Emissions - Italy": "tons CO₂"
 }
 
