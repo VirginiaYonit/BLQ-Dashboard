@@ -15,3 +15,8 @@ This interactive dashboard tracks 25 years of air traffic at Bologna Airport, in
 ## Technologies
 - Python (Dash, Plotly, Pandas)
 - Open data from Assaeroporti, Eurocontrol, and others
+
+- ## Acknowledgments
+
+This app was built through weeks of personal research, learning, and creative problem-solving —  
+with ChatGPT as a trusted technical companion throughout the journey.
