@@ -52,9 +52,9 @@ annotations = {
 # Layout
 app.layout = html.Div([
     html.Div([
-        html.H1("25 Years at BLQ", style={"textAlign": "center", "marginBottom": "0"}),
+        html.H1("25 Years at BLQ", style={"textAlign": "center", "marginBottom": "0", color: "blue", "fontSize"="20em"}),
         html.H4("Tracking air traffic, delays, and emissions (2000–2024)", 
-                style={"textAlign": "center", "marginTop": "0", "color": "blue"})
+                style={"textAlign": "center", "marginTop": "0", "color": "gray"})
     ], style={"padding": "40px", "backgroundColor": "#f9f9f9"}),
 
 
