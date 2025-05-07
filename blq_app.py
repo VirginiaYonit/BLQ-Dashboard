@@ -54,8 +54,8 @@ app.layout = html.Div([
     html.Div([
         html.H1("25 Years at BLQ", style={"textAlign": "center", "marginBottom": "0"}),
         html.H4("Tracking air traffic, delays, and emissions (2000–2024)", 
-                style={"textAlign": "center", "marginTop": "0", "color": "gray"})
-    ], style={"padding": "20px", "backgroundColor": "#f9f9f9"}),
+                style={"textAlign": "center", "marginTop": "0", "color": "blue"})
+    ], style={"padding": "40px", "backgroundColor": "#f9f9f9"}),
 
 
     html.Div([
