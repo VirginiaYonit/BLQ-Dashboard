@@ -1,4 +1,4 @@
-# 25 Years at BLQ – Dash Data App
+# 25 Years at BLQ - Dash Data App
 ## An interactive view on a changing airport
 
 This interactive dashboard brings to life 25 years of air traffic at Bologna Airport, showcasing key trends in:
